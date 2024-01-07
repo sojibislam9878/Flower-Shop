@@ -1,0 +1,48 @@
+/* <==========all common style here=============> */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+}
+.contener {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+  max-width: 634px;
+}
+.btn{
+    border-radius: 8px;
+background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+border: none;
+margin-top: 52px;
+}
+/* <===========header section start here============> */
+#header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-heading {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  max-width: 708px;
+}
+.header-pic > img{
+    width: 100%;
+    vertical-align: middle;
+}
